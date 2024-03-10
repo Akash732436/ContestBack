@@ -1,0 +1,22 @@
+{
+  "name": "contest_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "fetch": "^1.1.0",
+    "mysql": "^2.18.1",
+    "node-fecth": "0.0.1-security",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
